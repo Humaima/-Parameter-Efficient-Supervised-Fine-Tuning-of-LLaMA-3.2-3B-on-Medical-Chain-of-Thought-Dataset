@@ -22,6 +22,7 @@ What are the first-line treatments for migraine?
 **Model Output**
 
 <think>
+   
 1. Migraine treatment involves acute and preventive strategies
 
 2. First-line acute treatments include NSAIDs and triptans
@@ -29,15 +30,19 @@ What are the first-line treatments for migraine?
 3. Consider antiemetics if nausea is present
    
 4. Preventive options include beta-blockers for frequent migraines
+   
 </think>
 
 <response>
+   
 First-line treatments for migraine:
+
 1. Acute: Ibuprofen (NSAID) or sumatriptan (triptan)
    
 2. Add antiemetics like metoclopramide if nausea
    
 3. Preventive: Propranolol if ≥4 attacks/month
+   
 </response>
 
 ## Getting Started
