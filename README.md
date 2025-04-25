@@ -1,0 +1,2 @@
+# -Parameter-Efficient-Supervised-Fine-Tuning-of-LLaMA-3.2-3B-on-Medical-Chain-of-Thought-Dataset
+The goal of this project was to fine-tune the LLaMA 3.2 (3B) model on a Medical Chain-of-Thought (CoT) dataset using Low-Rank Adaptation (LoRA) for parameter-efficient training. The model was trained to generate structured medical reasoning and responses, improving its ability to assist in clinical decision-making.
