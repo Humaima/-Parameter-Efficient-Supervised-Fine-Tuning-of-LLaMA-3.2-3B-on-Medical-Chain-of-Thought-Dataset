@@ -13,35 +13,31 @@ The goal of this project was to fine-tune the LLaMA 3.2 (3B) model on a Medical 
 -  📊 Performance Tracking: Monitors loss and ROUGE-L scores via Weights & Biases
 -  🚀 Deployment Ready: Available on Hugging Face Hub as LoRA adapters
 
-## Model Example
+## Model Result
 
 **Model Input**
 
-What are the first-line treatments for migraine?
+Patient presents with fever, headache, and neck stiffness. What is the likely diagnosis and recommended diagnostic path? 
 
 **Model Output**
 
 <think>
    
-1. Migraine treatment involves acute and preventive strategies
+A. Bacterial meningitis
 
-2. First-line acute treatments include NSAIDs and triptans
-   
-3. Consider antiemetics if nausea is present
-   
-4. Preventive options include beta-blockers for frequent migraines
+B. Viral meningitis
+
+C. Subacute bacterial endocarditis
+
+D. Tuberculosis
+
+E. All of the above
    
 </think>
 
 <response>
    
-First-line treatments for migraine:
-
-1. Acute: Ibuprofen (NSAID) or sumatriptan (triptan)
-   
-2. Add antiemetics like metoclopramide if nausea
-   
-3. Preventive: Propranolol if ≥4 attacks/month
+The best answer is A.
    
 </response>
 
@@ -116,17 +112,28 @@ The complete implementation is available in one Kaggle notebook:
 **Results**
 | Metric | Value |
 |--------|-------|
-| Training Loss | 1.303 |
-| Validation Loss | 1.653 |
-| ROUGE-L | 0.67 |
+| Training Loss | 1.433900 |
+| Validation Loss | 1.457728 |
+| ROUGE-L | 1.00000 |
 | GPU Memory Usage | ~7.5GB |
 
 **WANDB Logs for GPU Usage, Training, and Validation Loss**
+![image](https://github.com/user-attachments/assets/301294fb-95b9-4b4f-b8b5-c03d2a4828c2)
+
+Fig 1: Validation Loss during Fine-tuning
+
+![image](https://github.com/user-attachments/assets/b754a68e-0d25-4461-a77b-115f0d100e4b)
+
+Fig 2: Training Loss during Fine-tuning
+
+![image](https://github.com/user-attachments/assets/e6ef2591-0146-46c5-9b82-369437ecc4ce)
+
+Fig 3: GPU Usage Visualization
 
 ## Resources
 
-- [Hugging Face Model](https://huggingface.co/Hums003/llama3.2B-lora-medical-cot)
-- [W&B Dashboard](https://wandb.ai/Hums003/medical-lora-llama3.2)
+- [Hugging Face Model](https://huggingface.co/Hums003/PEFT_LlaMA_3.2_MCoT/tree/main)
+- [W&B Dashboard](https://wandb.ai/humaima003-dhny-consultants/huggingface/runs/fgebciel?nw=nwuserhumaima003)
 - [Medical CoT Dataset](https://huggingface.co/datasets/FreedomIntelligence/medical-cot)
 
 ## License
