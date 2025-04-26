@@ -73,9 +73,10 @@ The best answer is A.
 
 ## Notebook Access
 
-The complete implementation is available in one Kaggle notebook:
+The complete implementation is available in Kaggle Notebooks (PEFT of llama 3.2 3b on a medical cot & Inference):
 
-[![Open in Kaggle]()
+[![Open in Kaggle](https://www.kaggle.com/code/humaimaanwar/peft-of-llama-3-2-3b-on-a-medical-cot)
+[![Open in Kaggle](https://www.kaggle.com/code/humaimaanwar/inference)
 
 ## How to Use
 
