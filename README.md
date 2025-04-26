@@ -75,8 +75,8 @@ The best answer is A.
 
 The complete implementation is available in Kaggle Notebooks (PEFT of llama 3.2 3b on a medical cot & Inference):
 
-[My Notebook on Kaggle](https://www.kaggle.com/code/humaimaanwar/peft-of-llama-3-2-3b-on-a-medical-cot)
-[My Notebook on Kaggle](https://www.kaggle.com/code/humaimaanwar/inference)
+[PEFT Training Notebook](https://www.kaggle.com/code/humaimaanwar/peft-of-llama-3-2-3b-on-a-medical-cot)
+[Inference Notebook](https://www.kaggle.com/code/humaimaanwar/inference)
 
 ## How to Use
 
